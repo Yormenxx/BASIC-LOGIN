@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    color: white;
+}
+
+
+.container__information{
+    width: 400px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.037);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.container__information h1{
+    font-weight: bold;
+}
+
+form{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    row-gap: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+}
+.check_contain{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.checkbox{
+    width: 20px;
+}
+
+button{
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;  
+    border-radius: 15px;
+    border: none;  
+    cursor: pointer;
+}
+.container__ways{
+    display: flex;
+    align-items: center;
+    padding-left: 67px;
+}
+.container__ways span hr{
+    width: 100px;
+}
+
+.container__option ul {
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+    margin:26px 0 0 65px;
+}
+.container__option ul li a{
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.container__option ul li:nth-of-type(1) a{
+    color: #3b5998  ;
+}
+
+.container__option ul li:nth-of-type(2) a{
+    color: #ea4335  ;
+}
+
+.container__option ul li:nth-of-type(3) a{
+    color: #00a0dc   ;
+}
+
+.container__option ul li:nth-of-type(1) a:hover{
+    background-color: #3b5998  ;
+    color: white;
+}
+
+.container__option ul li:nth-of-type(2) a:hover{
+    background-color: #ea4335  ;
+    color: white;
+}
+
+.container__option ul li:nth-of-type(3) a:hover{
+    background-color: #00a0dc   ;
+    color: white;
+}
+
+.register{
+    display: inline-block;
+    padding: 30px 0 0 20px;
+}
+
+.register a{
+    text-decoration: none;
+    color: #00a0dc ;
+    cursor: pointer;
+
+}
+
+
+
